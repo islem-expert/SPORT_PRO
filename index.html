@@ -3,203 +3,172 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GPL Auto Parts | قطع غيار سيرغاز الجزائر</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+<title>GPL Auto Parts DZ | قطع غيار سيرغاز – 0668 47 90 38</title>
+<meta name="description" content="متجر قطع غيار GPL الجزائر – 43 منتج Kits Injecteurs Réservoirs Filtres Électrovannes Capteurs Accessoires – الدفع عند الاستلام – واتساب 0668 47 90 38">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 <style>
-:root{
-  --green:#0b6b3a;
-  --green-dark:#0a4d2b;
-  --green-light:#117a42;
-  --green-soft:#e6f5ec;
-  --bg:#0a0a0a;
-  --card:#141414;
-  --card2:#1b1b1b;
-  --text:#f2f2f2;
-  --muted:#9aa5a0;
-  --white:#ffffff;
-  --border:#2a2a2a;
-  --accent:#22c55e;
-  --danger:#ef4444;
-}
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Cairo', system-ui, -apple-system, Segoe UI, sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
-a{color:inherit;text-decoration:none}
-.container{max-width:1180px;margin:0 auto;padding:0 20px}
-.topbar{background:#0f0f0f;font-size:12px;color:#bdbdbd;border-bottom:1px solid #1a1a1a}
-.topbar .inner{display:flex;justify-content:space-between;align-items:center;padding:7px 20px;max-width:1180px;margin:auto}
-.topbar span{margin-left:18px}
-nav.nav{background:#0f0f0f;position:sticky;top:0;z-index:50;border-bottom:1px solid #1a1a1a}
-nav .nav-inner{max-width:1180px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:14px 20px}
+:root{--green:#0b6b3a;--green2:#117a42;--accent:#22c55e;--bg:#0a0a0a;--card:#141414;--card2:#1b1b1b;--bd:#262626;--text:#f2f2f2;--muted:#9aa09c;--price:#7dffb5}
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:'Cairo',system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+a{color:inherit;text-decoration:none}.container{max-width:1200px;margin:auto;padding:0 20px}
+.topbar{background:#0f0f0f;font-size:12.5px;color:#c2c2c2;border-bottom:1px solid #1b1b1b}
+.topbar .in{max-width:1200px;margin:auto;padding:7px 20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.nav{position:sticky;top:0;z-index:60;background:#0f0f0fee;backdrop-filter:blur(8px);border-bottom:1px solid #1d1d1d}
+.navin{max-width:1200px;margin:auto;padding:13px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}
 .logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px}
-.logo-badge{background:var(--green);width:30px;height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:13px}
-.nav-links{display:flex;gap:28px;font-size:14px;color:#cfcfcf}
-.nav-links a:hover{color:var(--accent)}
-.btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 18px;border-radius:10px;font-weight:700;font-size:14px;cursor:pointer;border:1px solid transparent;transition:.2s}
-.btn-primary{background:var(--green);color:white}
-.btn-primary:hover{background:var(--green-light)}
-.btn-outline{border-color:#2f3f36;color:#d6ffe9;background:transparent}
-.btn-outline:hover{background:#10281c}
-.btn-white{background:white;color:#0b5d35}
-.btn-dark{background:#1a1a1a;color:white;border-color:#333}
-.cart-btn{background:#111;border:1px solid #2a2a2a;padding:8px 14px;border-radius:9px;font-size:13px}
-
-/* HERO */
-.hero{background:linear-gradient(160deg, #0b5e34 0%, #0a4b2a 55%, #08351f 100%);padding:56px 0 44px;position:relative;overflow:hidden}
-.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:center}
-@media(max-width:900px){.hero-grid{grid-template-columns:1fr}}
-.badge-soft{display:inline-block;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);color:#c8ffe2;padding:5px 14px;border-radius:999px;font-size:12px;margin-bottom:16px}
-.hero h1{font-size:42px;font-weight:800;line-height:1.25;margin-bottom:10px}
-.hero h1 span{color:#a8ffd0}
-.hero p{color:#cdebd9;max-width:520px;margin-bottom:22px;font-size:15px}
-.hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:28px}
-.stats{display:flex;gap:36px;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.12);padding-top:20px;margin-top:8px}
-.stat strong{display:block;font-size:22px}
-.stat span{font-size:12px;color:#bfe8d2}
-.hero-visual{position:relative;min-height:300px;display:flex;align-items:center;justify-content:center}
-.hero-car{background:radial-gradient(circle at center, rgba(255,255,255,.06), transparent 65%);width:100%;max-width:460px;height:260px;border-radius:20px;display:flex;align-items:center;justify-content:center;position:relative}
-.hero-car svg{width:100%;opacity:.95}
-
-/* SECTION */
-section{padding:48px 0}
-.section-title{font-size:22px;font-weight:800;margin-bottom:22px;display:flex;align-items:center;gap:10px}
-.section-title::before{content:'';width:4px;height:22px;background:var(--accent);border-radius:3px}
-
-/* Categories */
-.cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
-@media(max-width:900px){.cat-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:520px){.cat-grid{grid-template-columns:1fr 1fr}}
-.cat-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px 14px;text-align:center;transition:.2s}
-.cat-card:hover{border-color:var(--green-light);transform:translateY(-2px);background:#171717}
-.cat-icon{width:44px;height:44px;background:#f7f7f7;border-radius:10px;margin:0 auto 10px;display:flex;align-items:center;justify-content:center;color:#0b5d35;font-size:20px}
-.cat-card h4{font-size:14px;font-weight:700}
-.cat-card p{font-size:11px;color:var(--muted)}
-
-/* Products */
-.prod-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-@media(max-width:1000px){.prod-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:560px){.prod-grid{grid-template-columns:1fr 1fr}}
-.prod{background:var(--card2);border:1px solid var(--border);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
-.prod-img{background:white;height:150px;display:flex;align-items:center;justify-content:center;position:relative}
-.prod-img svg{width:54px;height:54px;color:#6b7280}
-.tag{position:absolute;top:10px;right:10px;font-size:10px;padding:3px 8px;border-radius:6px;font-weight:700}
-.tag-new{background:#22c55e;color:#052e16}
-.tag-hot{background:#ef4444;color:white}
-.prod-body{padding:14px;flex:1;display:flex;flex-direction:column}
-.prod-body h5{font-size:14px;font-weight:700;margin-bottom:4px}
-.prod-body .pn{font-size:11px;color:#888;margin-bottom:8px}
-.price{font-weight:800;font-size:16px;color:#7dffb5;margin-bottom:10px}
-.price small{color:#8a8a8a;font-weight:600;font-size:12px;text-decoration:line-through;margin-right:6px}
-.stock{font-size:11px;color:#6ee7a8;margin-bottom:12px}
-.prod-foot{display:flex;gap:8px;margin-top:auto}
-.qty{display:flex;align-items:center;background:#0f0f0f;border:1px solid #333;border-radius:9px}
-.qty button{background:none;border:none;color:#ddd;padding:6px 9px;cursor:pointer;font-size:14px}
-.qty span{padding:0 6px;font-size:13px}
-.add-btn{flex:1;background:var(--green);color:white;border:none;border-radius:9px;font-weight:700;font-size:12px;cursor:pointer;padding:8px}
-.add-btn:hover{background:var(--green-light)}
-
-/* Why us */
-.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
-@media(max-width:900px){.why-grid{grid-template-columns:repeat(2,1fr)}}
-.why{background:#141414;border:1px solid #262626;border-radius:14px;padding:20px;text-align:center}
-.why-icon{width:46px;height:46px;margin:0 auto 10px;background:#f2fff7;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#0b6b3a}
-.why h4{font-size:14px;margin-bottom:6px}
-.why p{font-size:12px;color:#9b9b9b}
-
-/* contact */
-.contact-box{background:linear-gradient(135deg,#0f6a3d,#0a4a2b);border-radius:16px;padding:28px;color:white}
-.contact-box h3{font-size:20px;margin-bottom:6px}
-.contact-box p{color:#c8f0da;font-size:13px;margin-bottom:18px}
-.contact-row{display:flex;gap:12px;flex-wrap:wrap}
-.contact-pill{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);padding:9px 14px;border-radius:10px;font-size:13px;display:flex;align-items:center;gap:8px}
-
-/* footer */
-footer{background:#0b0b0b;border-top:1px solid #1d1d1d;padding:26px 0;color:#8d8d8d;font-size:12px;margin-top:30px}
-.footer-inner{max-width:1180px;margin:auto;padding:0 20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
-
-/* Woo/Cart drawer mock */
-.cart-drawer{position:fixed;left:20px;top:80px;background:#161616;border:1px solid #2d2d2d;padding:14px;border-radius:12px;font-size:12px;color:#aaa;display:none;max-width:260px;z-index:99}
-.cart-drawer.show{display:block}
-
-/* checkout modal mock */
-.modal{position:fixed;inset:0;background:rgba(0,0,0,.64);display:none;align-items:center;justify-content:center;z-index:100;padding:20px}
-.modal.show{display:flex}
-.modal-card{background:#161616;border:1px solid #2e2e2e;border-radius:16px;max-width:680px;width:100%;padding:24px}
-.modal-card h3{margin-bottom:14px}
-.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-@media(max-width:600px){.form-grid{grid-template-columns:1fr}}
-.form-grid label{font-size:12px;color:#bdbdbd;display:block;margin-bottom:4px}
-.form-grid input, .form-grid select, .form-grid textarea{width:100%;background:#101010;border:1px solid #333;color:#eee;padding:10px;border-radius:9px;font-family:'Cairo',sans-serif}
-.form-grid .full{grid-column:1/-1}
-.whatsapp-note{background:#0e2a1a;border:1px dashed #1f8a4e;color:#8ff1b8;padding:12px;border-radius:10px;font-size:12px;margin-top:14px}
-
-/* RTL tweaks */
-.ltr{direction:ltr;text-align:left}
+.logo b{background:var(--green);width:34px;height:34px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:13px}
+.navlinks{display:flex;gap:24px;font-size:14px;color:#d0d0d0}
+.navlinks a:hover{color:var(--accent)}
+@media(max-width:860px){.navlinks{display:none}}
+.btn{padding:10px 18px;border-radius:11px;font-weight:700;font-size:14px;border:1px solid transparent;cursor:pointer;transition:.18s;display:inline-flex;align-items:center;gap:7px}
+.btn-g{background:var(--green);color:#fff}.btn-g:hover{background:var(--green2)}
+.btn-w{background:#fff;color:#0b5b35}
+.btn-o{background:transparent;border-color:#2f4a3b;color:#d5ffea}
+.cartB{background:#151515;border:1px solid #2c2c2c;padding:8px 14px;border-radius:10px;font-size:13px;color:#eee;cursor:pointer}
+.cartB b{color:var(--price)}
+.ownerL{font-size:11.5px;color:#6abf8a}.ownerL:hover{color:#a8ffd0}
+/* hero */
+.hero{background:linear-gradient(155deg,#0b5e34 0%,#0a4929 52%,#072a18 100%);padding:60px 0 46px}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:32px;align-items:center}
+@media(max-width:920px){.hero-grid{grid-template-columns:1fr}}
+.eyebrow{display:inline-block;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);color:#c9ffe4;padding:5px 14px;border-radius:999px;font-size:12px;margin-bottom:14px}
+.hero h1{font-size:44px;font-weight:900;line-height:1.22;margin-bottom:8px}
+.hero h1 em{color:#a6ffcf;font-style:normal}
+.hero .lead{color:#cdebd7;max-width:540px;margin-bottom:20px}
+.hbtns{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:24px}
+.stats{display:flex;gap:32px;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.13);padding-top:18px}
+.stat strong{font-size:23px;display:block}
+.stat span{font-size:12px;color:#bfe7cc}
+.hcard{background:radial-gradient(circle,rgba(255,255,255,.05),transparent 70%);border:1px solid rgba(255,255,255,.10);border-radius:20px;width:100%;max-width:470px;height:250px;display:flex;align-items:center;justify-content:center}
+/* sections */
+.sec{padding:44px 0}
+.sec h2{font-size:22px;font-weight:800;margin-bottom:16px;display:flex;align-items:center;gap:9px}
+.sec h2::before{content:'';width:4px;height:22px;background:var(--accent);border-radius:3px}
+/* cat */
+.catgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}
+@media(max-width:900px){.catgrid{grid-template-columns:repeat(2,1fr)}}
+.cat{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px 12px;text-align:center;cursor:pointer;transition:.18s}
+.cat:hover{border-color:#2f8a57;transform:translateY(-2px)}
+.cat.active{border-color:var(--accent);background:#0f281b;box-shadow:0 0 0 1px rgba(34,197,94,.28) inset}
+.cicon{width:44px;height:44px;background:#f5f5f5;border-radius:11px;margin:0 auto 9px;display:flex;align-items:center;justify-content:center;font-size:20px}
+.cat h4{font-size:14px;font-weight:700}.cat p{font-size:11px;color:var(--muted)}.cat small{font-size:10px;color:#6bb68d}
+/* toolbar */
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:10px 0 14px}
+.search{flex:1;min-width:220px;position:relative}
+.search input{width:100%;background:#141414;border:1px solid #2e2e2e;color:#eee;padding:11px 14px 11px 40px;border-radius:11px;font-family:'Cairo',sans-serif;font-size:14px}
+.search span{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:#777}
+.sortsel{background:#141414;border:1px solid #2e2e2e;color:#ddd;padding:11px 12px;border-radius:11px;font-family:'Cairo',sans-serif;font-size:13px}
+/* pills */
+.pills{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.pill{padding:7px 14px;border-radius:999px;background:#151515;border:1px solid #2e2e2e;font-size:12.5px;font-weight:600;color:#c8c8c8;cursor:pointer;transition:.15s}
+.pill:hover{border-color:#3f9a65}.pill.on{background:#0e3b24;border-color:var(--accent);color:#bfffe0}
+.resinfo{font-size:12px;color:#9ca7a0;margin-bottom:12px}
+/* products */
+.pgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+@media(max-width:1060px){.pgrid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:760px){.pgrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.pgrid{grid-template-columns:1fr 1fr}}
+.p{background:var(--card2);border:1px solid var(--bd);border-radius:15px;overflow:hidden;display:flex;flex-direction:column;transition:.15s}
+.p:hover{border-color:#2f7a52}
+.pimg{background:#fff;height:128px;display:flex;align-items:center;justify-content:center;position:relative;font-size:34px}
+.pTag{position:absolute;top:9px;right:9px;font-size:10px;font-weight:800;padding:3px 8px;border-radius:6px}
+.t-new{background:var(--accent);color:#052e16}.t-hot{background:#ef4444;color:#fff}.t-sale{background:#f59e0b;color:#351b00}
+.pb{padding:13px;flex:1;display:flex;flex-direction:column}
+.clabel{font-size:10.5px;color:#6cd8a0;margin-bottom:3px}
+.pb h5{font-size:13.5px;font-weight:700;margin-bottom:3px;min-height:36px;line-height:1.35}
+.sku{font-size:10.5px;color:#888;margin-bottom:7px}
+.price{font-weight:800;color:var(--price);font-size:15.5px;margin-bottom:8px}
+.price s{color:#888;font-size:12px;margin-left:6px;font-weight:600}
+.stock{font-size:11px;color:#6fe7a7;margin-bottom:10px}
+.pfoot{display:flex;gap:7px;margin-top:auto}
+.qty{display:flex;align-items:center;background:#101010;border:1px solid #333;border-radius:8px}
+.qty button{background:none;border:none;color:#ddd;padding:5px 8px;cursor:pointer}
+.qty span{min-width:22px;text-align:center;font-size:13px}
+.add{flex:1;background:var(--green);color:#fff;border:none;border-radius:8px;font-weight:700;font-size:12px;cursor:pointer;padding:7px}
+.add:hover{background:var(--green2)}
+/* why / contact / footer */
+.wgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}
+@media(max-width:900px){.wgrid{grid-template-columns:repeat(2,1fr)}}
+.why{background:var(--card);border:1px solid var(--bd);border-radius:13px;padding:18px;text-align:center}
+.wi{width:44px;height:44px;margin:0 auto 9px;background:#f0fff6;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#0b6b3a;font-size:19px}
+.why h4{font-size:13.5px;margin-bottom:4px}.why p{font-size:11.5px;color:#9a9a9a}
+.cbox{background:linear-gradient(135deg,#0f6a3d,#0a492a);border-radius:16px;padding:26px;color:#fff}
+.cbox h3{font-size:20px;margin-bottom:5px}.cbox p{color:#c8f0d9;font-size:13px;margin-bottom:15px}
+.crow{display:flex;gap:10px;flex-wrap:wrap}
+.cpill{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.19);padding:9px 14px;border-radius:10px;font-size:13px}
+footer{background:#0b0b0b;border-top:1px solid #1c1c1c;margin-top:34px;padding:24px 0;color:#8c8c8c;font-size:12px}
+.fin{max-width:1200px;margin:auto;padding:0 20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+/* cart modal */
+.cartD{position:fixed;left:18px;top:76px;background:#161616;border:1px solid #2d2d2d;padding:14px;border-radius:13px;font-size:12px;color:#bdbdbd;display:none;max-width:320px;z-index:90;box-shadow:0 14px 40px rgba(0,0,0,.55)}
+.cartD.show{display:block}
+@media(max-width:600px){.cartD{left:10px;right:10px;max-width:none}}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.7);display:none;align-items:center;justify-content:center;z-index:120;padding:16px}
+.modal.on{display:flex}
+.mcard{background:#171717;border:1px solid #2f2f2f;border-radius:15px;max-width:700px;width:100%;padding:22px;max-height:92vh;overflow:auto}
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+@media(max-width:600px){.fgrid{grid-template-columns:1fr}}
+.fgrid label{font-size:12px;color:#c8c8c8;display:block;margin-bottom:3px}
+.fgrid input,.fgrid select,.fgrid textarea{width:100%;background:#101010;border:1px solid #343434;color:#eee;padding:10px;border-radius:9px;font-family:'Cairo',sans-serif}
+.full{grid-column:1/-1}
+.wanote{background:#0d2918;border:1px dashed #1f8a4e;color:#8ff1b8;padding:11px;border-radius:10px;font-size:12px;margin-top:13px}
+.toast{position:fixed;bottom:86px;right:16px;background:#103524;border:1px solid #1f9a56;color:#bfffe0;padding:10px 14px;border-radius:10px;font-size:13px;z-index:200;display:none}
+.toast.show{display:block;animation:tu .22s ease}
+@keyframes tu{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.wafloat{position:fixed;bottom:16px;left:16px;z-index:999;background:#25D366;color:#fff;padding:12px 18px;border-radius:50px;font-weight:800;font-size:14px;box-shadow:0 5px 18px rgba(0,0,0,.35);text-decoration:none}
+.wafloat:hover{background:#1ebe5b}
+.pagebar{display:flex;justify-content:center;gap:7px;margin-top:18px;flex-wrap:wrap}
+.pagebar button{background:#161616;border:1px solid #2e2e2e;color:#ccc;padding:7px 12px;border-radius:8px;cursor:pointer;font-family:'Cairo',sans-serif}
+.pagebar button.on{background:var(--green);color:#fff;border-color:var(--green)}
+.hidden{display:none}
 </style>
 </head>
 <body>
 
-<div class="topbar">
-  <div class="inner">
-    <div>
-      <span>🚚 توصيل 58 ولاية</span>
-      <span>📞 0668 47 90 38</span>
-      <span>✉️ contact@gplauto.dz</span>
-    </div>
-    <div>الدفع عند الاستلام • Paiement à la livraison</div>
-  </div>
-</div>
+<div class="topbar"><div class="in">
+  <div>🚚 توصيل 58 ولاية &nbsp; • &nbsp; 📞 0668 47 90 38 &nbsp; • &nbsp; ✉️ contact@gplauto.dz</div>
+  <div>الدفع عند الاستلام • Paiement à la livraison</div>
+</div></div>
 
-<nav class="nav">
-  <div class="nav-inner">
-    <div class="logo"><div class="logo-badge">GPL</div> GPL Auto Parts</div>
-    <div class="nav-links" style="display:none" id="navLinksDesk">
-      <a href="#">الرئيسية</a>
-      <a href="#categories">المنتجات</a>
-      <a href="#why">من نحن</a>
-      <a href="#contact">تواصل معنا</a>
-    </div>
-    <div style="display:flex;gap:10px;align-items:center">
-      <button class="cart-btn" onclick="toggleCart()">🛒 السلة <span id="cartCount">0</span></button>
-      <button class="btn btn-primary" style="padding:7px 14px;font-size:13px" onclick="openCheckout()">GPL 0</button>
-    </div>
+<nav class="nav"><div class="navin">
+  <div class="logo"><b>GPL</b> GPL Auto Parts</div>
+  <div class="navlinks">
+    <a href="#">الرئيسية</a>
+    <a href="#cats">المنتجات</a>
+    <a href="#shop">المتجر</a>
+    <a href="#why">من نحن</a>
+    <a href="#contact">تواصل</a>
   </div>
-</nav>
+  <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+    <a class="ownerL" href="../owner-panel/owner.html" target="_blank">🔐 صاحب المحل</a>
+    <button class="cartB" onclick="toggleCart()">🛒 السلة <b id="cartCount">0</b></button>
+    <button class="btn btn-g" style="padding:7px 13px;font-size:13px" onclick="openCheckout()">إتمام الطلب</button>
+  </div>
+</div></nav>
 
-<!-- HERO -->
 <header class="hero">
   <div class="container hero-grid">
     <div>
-      <div class="badge-soft">✅ قطع أصلية معتمدة</div>
-      <h1>GPL قطع غيار<br><span>بجودة مطابقة لأكثر دقة</span></h1>
-      <p>نوفر جميع قطع سيرغاز GPL في الجزائر – Kits, Injecteurs, Réservoirs, Filtres – مع توصيل سريع لجميع 58 ولاية والدفع عند الاستلام.</p>
-      <div class="hero-cta">
-        <a href="#products" class="btn btn-white">تصفح المنتجات</a>
-        <a href="https://wa.me/213668479038" target="_blank" class="btn btn-outline">تواصل معنا</a>
+      <div class="eyebrow">✅ قطع أصلية معتمدة – Lovato • BRC • Tomasetto • AEB • STAG</div>
+      <h1>GPL قطع غيار<br><em>بجودة مطابقة لأكثر دقة</em></h1>
+      <p class="lead">43 منتج سيرغاز GPL جاهز – Kits, Injecteurs, Réservoirs, Filtres, Électrovannes, Capteurs, Accessoires – توصيل 58 ولاية والدفع عند الاستلام – واتساب <b>0668 47 90 38</b></p>
+      <div class="hbtns">
+        <a href="#shop" class="btn btn-w">تصفح 43 منتج</a>
+        <a href="https://wa.me/213668479038" target="_blank" class="btn btn-o">💬 واتساب مباشر</a>
       </div>
       <div class="stats">
-        <div class="stat"><strong>500+</strong><span>قطعة متوفرة</span></div>
-        <div class="stat"><strong>48</strong><span>ساعة توصيل</span></div>
+        <div class="stat"><strong>43+</strong><span>منتج GPL</span></div>
+        <div class="stat"><strong>48h</strong><span>توصيل سريع</span></div>
         <div class="stat"><strong>2000+</strong><span>عميل راضي</span></div>
-        <div class="stat"><strong>24h</strong><span>دعم فني</span></div>
+        <div class="stat"><strong>COD</strong><span>الدفع عند الاستلام</span></div>
       </div>
     </div>
-    <div class="hero-visual">
-      <div class="hero-car">
-        <!-- Stylized GPL engine / car -->
-        <svg viewBox="0 0 600 260" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <linearGradient id="g" x1="0" x2="1"><stop offset="0%" stop-color="#87ffd0"/><stop offset="100%" stop-color="#22c55e"/></linearGradient>
-          </defs>
-          <g opacity="0.9" fill="none" stroke="url(#g)" stroke-width="2">
-            <ellipse cx="300" cy="170" rx="210" ry="22" stroke-opacity=".25"/>
-            <path d="M120 150 C170 90 430 90 480 150 L460 170 L140 170 Z" fill="rgba(255,255,255,.04)" stroke-opacity=".4"/>
-            <circle cx="190" cy="178" r="28" stroke-opacity=".5"/>
-            <circle cx="410" cy="178" r="28" stroke-opacity=".5"/>
-            <text x="300" y="138" text-anchor="middle" fill="#bffde2" stroke="none" font-size="28" font-family="Cairo, sans-serif" font-weight="700">GPL • LPG</text>
-            <text x="300" y="162" text-anchor="middle" fill="#89eab8" stroke="none" font-size="11" font-family="Cairo, sans-serif">SÉQUENTIEL • ALGÉRIE</text>
-          </g>
+    <div style="display:flex;align-items:center;justify-content:center">
+      <div class="hcard">
+        <svg viewBox="0 0 520 240" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="lg" x1="0" x2="1"><stop stop-color="#8dffcc"/><stop offset="1" stop-color="#22c55e"/></linearGradient></defs>
+          <text x="260" y="105" text-anchor="middle" fill="#cffff0" font-size="30" font-family="Cairo,sans-serif" font-weight="800">GPL • LPG AUTO PARTS</text>
+          <text x="260" y="136" text-anchor="middle" fill="#7de6af" font-size="12" font-family="Cairo,sans-serif">SÉQUENTIEL ALGÉRIE • 0668 47 90 38</text>
+          <text x="260" y="170" text-anchor="middle" fill="#9affce" font-size="11" font-family="Cairo,sans-serif">Kits • Injecteurs • Réservoirs • Filtres • Électrovannes • Capteurs • Accessoires</text>
+          <ellipse cx="260" cy="195" rx="190" ry="16" fill="none" stroke="url(#lg)" opacity=".35"/>
         </svg>
       </div>
     </div>
@@ -207,261 +176,213 @@ footer{background:#0b0b0b;border-top:1px solid #1d1d1d;padding:26px 0;color:#8d8
 </header>
 
 <main class="container">
-  <!-- Categories -->
-  <section id="categories">
-    <div class="section-title">فئات المنتجات</div>
-    <div class="cat-grid">
-      <div class="cat-card"><div class="cat-icon">🧩</div><h4>Kits GPL</h4><p>أنظمة كاملة</p></div>
-      <div class="cat-card"><div class="cat-icon">💧</div><h4>Injecteurs GPL</h4><p>حاقنات</p></div>
-      <div class="cat-card"><div class="cat-icon">🛢️</div><h4>Réservoirs GPL</h4><p>خزانات</p></div>
-      <div class="cat-card"><div class="cat-icon">♻️</div><h4>Filtres GPL</h4><p>فلاتر</p></div>
-      <div class="cat-card"><div class="cat-icon">⚡</div><h4>Électrovannes GPL</h4><p>صمامات</p></div>
-      <div class="cat-card"><div class="cat-icon">📡</div><h4>Capteurs GPL</h4><p>حساسات</p></div>
-      <div class="cat-card"><div class="cat-icon">🔧</div><h4>Accessoires GPL</h4><p>إكسسوارات</p></div>
-      <div class="cat-card" style="border-style:dashed"><div class="cat-icon">➕</div><h4>جميع الفئات</h4><p>Voir tout</p></div>
+  <section class="sec" id="cats">
+    <h2>فئات المنتجات</h2>
+    <div class="catgrid" id="catGrid"></div>
+  </section>
+
+  <section class="sec" id="shop">
+    <h2>المتجر – قطع GPL</h2>
+    <div class="toolbar">
+      <div class="search"><span>🔍</span><input id="q" placeholder="ابحث: injecteur, filtre, Lovato, BRC..." oninput="page=1;render()"></div>
+      <select class="sortsel" id="sort" onchange="render()">
+        <option value="featured">مميز</option>
+        <option value="pop">الأكثر مبيعاً</option>
+        <option value="price_asc">السعر: الأقل أولاً</option>
+        <option value="price_desc">السعر: الأعلى أولاً</option>
+        <option value="name">الاسم A-Z</option>
+        <option value="new">الأحدث</option>
+      </select>
+      <select class="sortsel" id="perPage" onchange="page=1;render()">
+        <option value="12">12 / صفحة</option>
+        <option value="24" selected>24 / صفحة</option>
+        <option value="48">48 / صفحة</option>
+        <option value="999">الكل</option>
+      </select>
+    </div>
+    <div class="pills" id="pills"></div>
+    <div class="resinfo" id="resinfo">جار التحميل...</div>
+    <div class="pgrid" id="pgrid"></div>
+    <div class="pagebar" id="pagebar"></div>
+    <div style="text-align:center;margin-top:20px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <button class="btn btn-o" onclick="setCat('all')">عرض جميع المنتجات</button>
+      <a class="btn btn-g" href="https://wa.me/213668479038?text=Salam%20GPL%2C%20je%20veux%20commander" target="_blank">💬 اطلب عبر واتساب 0668 47 90 38</a>
+      <a class="btn btn-o" href="../owner-panel/owner.html" target="_blank">🔐 لوحة صاحب المحل</a>
     </div>
   </section>
 
-  <!-- Products -->
-  <section id="products">
-    <div class="section-title">أكثر مبيعا</div>
-    <div class="prod-grid">
-      <!-- product 1 -->
-      <div class="prod">
-        <div class="prod-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg><span class="tag tag-new">جديد</span></div>
-        <div class="prod-body">
-          <h5>Kit GPL Complet Lovato</h5>
-          <div class="pn">SKU: KIT-LOV-4CYL</div>
-          <div class="price">45,000 DA</div>
-          <div class="stock">✓ متوفر في المخزن</div>
-          <div class="prod-foot">
-            <div class="qty"><button onclick="chg(this,-1)">−</button><span>1</span><button onclick="chg(this,1)">+</button></div>
-            <button class="add-btn" onclick="addToCart('Kit GPL Complet Lovato',45000)">+ أضف</button>
-          </div>
-        </div>
-      </div>
-      <!-- product 2 -->
-      <div class="prod">
-        <div class="prod-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v8M4.93 10.93l1.41 1.41M19.07 10.93l-1.41 1.41M2 18h2.01M20 18h2M12 14a4 4 0 0 0-4 4h8a4 4 0 0 0-4-4z"/></svg><span class="tag tag-new">جديد</span></div>
-        <div class="prod-body">
-          <h5>Injecteur Rail AEB</h5>
-          <div class="pn">SKU: INJ-AEB-4</div>
-          <div class="price">18,500 DA</div>
-          <div class="stock">✓ متوفر في المخزن</div>
-          <div class="prod-foot">
-            <div class="qty"><button onclick="chg(this,-1)">−</button><span>1</span><button onclick="chg(this,1)">+</button></div>
-            <button class="add-btn" onclick="addToCart('Injecteur Rail AEB',18500)">+ أضف</button>
-          </div>
-        </div>
-      </div>
-      <!-- product 3 -->
-      <div class="prod">
-        <div class="prod-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span class="tag tag-hot">الأكثر مبيعا</span></div>
-        <div class="prod-body">
-          <h5>Filtre Phase Liquide</h5>
-          <div class="pn">SKU: FLT-LIQ-12</div>
-          <div class="price"><small>3,200 DA</small> 2,800 DA</div>
-          <div class="stock">✓ متوفر في المخزن</div>
-          <div class="prod-foot">
-            <div class="qty"><button onclick="chg(this,-1)">−</button><span>1</span><button onclick="chg(this,1)">+</button></div>
-            <button class="add-btn" onclick="addToCart('Filtre Phase Liquide',2800)">+ أضف</button>
-          </div>
-        </div>
-      </div>
-      <!-- product 4 -->
-      <div class="prod">
-        <div class="prod-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
-        <div class="prod-body">
-          <h5>Électrovanne Tomasetto</h5>
-          <div class="pn">SKU: EV-TOM-AT02</div>
-          <div class="price">8,900 DA</div>
-          <div class="stock">✓ متوفر في المخزن</div>
-          <div class="prod-foot">
-            <div class="qty"><button onclick="chg(this,-1)">−</button><span>1</span><button onclick="chg(this,1)">+</button></div>
-            <button class="add-btn" onclick="addToCart('Électrovanne Tomasetto',8900)">+ أضف</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div style="text-align:center;margin-top:20px">
-      <a href="#" class="btn btn-outline">عرض جميع المنتجات →</a>
+  <section class="sec" id="why">
+    <h2>لماذا تختارنا</h2>
+    <div class="wgrid">
+      <div class="why"><div class="wi">🚚</div><h4>توصيل سريع 58 ولاية</h4><p>48-72 ساعة – Yalidine / ZR Express</p></div>
+      <div class="why"><div class="wi">✓</div><h4>قطع أصلية معتمدة</h4><p>Lovato • BRC • Tomasetto • AEB • STAG</p></div>
+      <div class="why"><div class="wi">💬</div><h4>دعم فني GPL</h4><p>واتساب مباشر 0668 47 90 38</p></div>
+      <div class="why"><div class="wi">💵</div><h4>الدفع عند الاستلام</h4><p>Paiement à la livraison – 100%</p></div>
     </div>
   </section>
 
-  <!-- Why Us -->
-  <section id="why">
-    <div class="section-title">لماذا تختارنا</div>
-    <div class="why-grid">
-      <div class="why">
-        <div class="why-icon">🚚</div>
-        <h4>توصيل سريع</h4>
-        <p>48-72 ساعة لجميع 58 ولاية</p>
-      </div>
-      <div class="why">
-        <div class="why-icon">✓</div>
-        <h4>قطع أصلية معتمدة</h4>
-        <p>Lovato • Tomasetto • AEB</p>
-      </div>
-      <div class="why">
-        <div class="why-icon">💬</div>
-        <h4>دعم فني متخصص</h4>
-        <p>فريق تقني GPL جاهز لمساعدتك</p>
-      </div>
-      <div class="why">
-        <div class="why-icon">💵</div>
-        <h4>الدفع عند الاستلام</h4>
-        <p>Paiement à la livraison 100%</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact">
-    <div class="contact-box">
+  <section class="sec" id="contact">
+    <div class="cbox">
       <h3>تواصل معنا</h3>
-      <p>هل تحتاج مساعدة في اختيار قطعة GPL المناسبة لسيارتك؟ فريقنا جاهز.</p>
-      <div class="contact-row">
-        <div class="contact-pill">📞 0668 47 90 38</div>
-        <a href="https://wa.me/213668479038" target="_blank" class="contact-pill" style="background:#25D366;color:#062e17;border-color:#25D366;font-weight:700">💬 واتساب مباشر</a>
-        <div class="contact-pill">✉️ contact@gplauto.dz</div>
+      <p>هل تحتاج مساعدة في اختيار قطعة GPL المناسبة لسيارتك؟ فريقنا التقني جاهز.</p>
+      <div class="crow">
+        <div class="cpill">📞 0668 47 90 38</div>
+        <a class="cpill" href="https://wa.me/213668479038" target="_blank" style="background:#25D366;color:#052e16;font-weight:800">💬 واتساب مباشر</a>
+        <div class="cpill">✉️ contact@gplauto.dz</div>
+        <div class="cpill">📍 الجزائر – توصيل 58 ولاية</div>
       </div>
     </div>
   </section>
 </main>
 
-<footer>
-  <div class="footer-inner">
-    <div>© 2025 GPL Auto Parts • سيرغاز الجزائر – جميع الحقوق محفوظة</div>
-    <div style="display:flex;gap:16px">
-      <a href="#">سياسة الإرجاع</a>
-      <a href="#">الشحن</a>
-      <a href="#">اتصل بنا</a>
-    </div>
+<footer><div class="fin">
+  <div>© 2025 GPL Auto Parts DZ • سيرغاز الجزائر • +213 668 479 038</div>
+  <div style="display:flex;gap:14px">
+    <a href="#">سياسة الإرجاع</a>
+    <a href="#">الشحن</a>
+    <a href="../owner-panel/owner.html" target="_blank">🔐 Owner</a>
+    <a href="https://wa.me/213668479038">واتساب</a>
   </div>
-</footer>
+</div></footer>
 
-<!-- Mini cart -->
-<div class="cart-drawer" id="cartDrawer">
-  <strong style="color:#eee">سلة المشتريات</strong>
-  <div id="cartItems" style="margin-top:8px"></div>
-  <div style="border-top:1px solid #333;margin-top:10px;padding-top:8px">
-    <div>المجموع: <b id="cartTotal" style="color:#7dffb5">0 DA</b></div>
-    <button class="btn btn-primary" style="width:100%;margin-top:8px;font-size:13px" onclick="openCheckout()">إتمام الطلب</button>
+<!-- CART -->
+<div class="cartD" id="cartD">
+  <strong style="color:#eee">🛒 سلة المشتريات</strong>
+  <div id="cartItems" style="margin-top:8px;max-height:220px;overflow:auto"></div>
+  <div style="border-top:1px solid #333;margin-top:9px;padding-top:9px">
+    <div>المجموع: <b id="cartTotal" style="color:var(--price)">0 DA</b></div>
+    <button class="btn btn-g" style="width:100%;margin-top:8px;font-size:13px" onclick="openCheckout()">إتمام الطلب ✓</button>
+    <button class="btn btn-o" style="width:100%;margin-top:6px;font-size:12px" onclick="cart=[];saveCart();updateCart();toast('تم تفريغ السلة')">تفريغ</button>
   </div>
 </div>
 
-<!-- Checkout Modal -->
-<div class="modal" id="checkoutModal" onclick="if(event.target===this)closeCheckout()">
-  <div class="modal-card">
-    <div style="display:flex;justify-content:space-between;align-items:center">
+<div class="toast" id="toast"></div>
+
+<!-- CHECKOUT -->
+<div class="modal" id="checkM" onclick="if(event.target===this)closeCheckout()">
+  <div class="mcard">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
       <h3>إتمام الطلب – Paiement à la livraison</h3>
-      <button onclick="closeCheckout()" style="background:none;border:none;color:#aaa;font-size:20px;cursor:pointer">×</button>
+      <button onclick="closeCheckout()" style="background:none;border:none;color:#aaa;font-size:22px;cursor:pointer">×</button>
     </div>
-    <form id="checkoutForm" onsubmit="submitOrder(event)">
-      <div class="form-grid">
-        <div>
-          <label>الاسم واللقب * Nom Complet</label>
-          <input required name="name" placeholder="Ahmed Benali">
-        </div>
-        <div>
-          <label>رقم الهاتف * Téléphone</label>
-          <input required name="phone" type="tel" placeholder="0550 12 34 56" pattern="0[5-7][0-9]{8}">
-        </div>
-        <div>
-          <label>الولاية * Wilaya</label>
-          <select required name="wilaya">
-            <option value="">اختر الولاية</option>
-            <option>الجزائر</option><option>وهران</option><option>قسنطينة</option><option>سطيف</option>
-            <option>عنابة</option><option>البليدة</option><option>بجاية</option><option>تيزي وزو</option>
-            <option>باتنة</option><option>سيدي بلعباس</option>
-            <!-- الـ 58 ولاية تُضاف ديناميكياً في WooCommerce -->
-          </select>
-        </div>
-        <div>
-          <label>البلدية * Commune</label>
-          <input required name="commune" placeholder="El Eulma">
-        </div>
-        <div class="full">
-          <label>العنوان الكامل * Adresse Complète</label>
-          <input required name="address" placeholder="الحي، الشارع، رقم المنزل...">
-        </div>
-        <div class="full">
-          <label>ملاحظات إضافية (اختياري)</label>
-          <textarea name="notes" rows="2" placeholder="مثال: أتصل قبل التوصيل"></textarea>
-        </div>
+    <form id="coForm" onsubmit="submitOrder(event)">
+      <div class="fgrid">
+        <div><label>الاسم واللقب * Nom Complet</label><input required name="name" placeholder="Ahmed Benali"></div>
+        <div><label>رقم الهاتف * Téléphone</label><input required name="phone" type="tel" placeholder="0668 47 90 38" pattern="0[5-7][0-9]{8}"></div>
+        <div><label>الولاية * Wilaya</label><select required name="wilaya" id="wilayaSel"></select></div>
+        <div><label>البلدية * Commune</label><input required name="commune" placeholder="El Eulma"></div>
+        <div class="full"><label>العنوان الكامل * Adresse Complète</label><input required name="address" placeholder="الحي، الشارع، رقم المنزل..."></div>
+        <div class="full"><label>ملاحظات إضافية (اختياري)</label><textarea name="notes" rows="2" placeholder="مثال: اتصل قبل التوصيل"></textarea></div>
       </div>
-
-      <div style="background:#101a14;border:1px solid #1f3b2a;border-radius:10px;padding:14px;margin-top:14px;font-size:13px">
+      <div style="background:#0f1e16;border:1px solid #1e4731;border-radius:11px;padding:13px;margin-top:13px;font-size:13px">
         <div id="orderSummary" style="color:#bde7cd">لم يتم اختيار منتجات بعد.</div>
-        <div style="margin-top:6px;font-weight:800">الإجمالي: <span id="orderTotal" style="color:#7dffb5">0 DA</span></div>
-        <div style="color:#86cfa9;font-size:12px;margin-top:4px">✓ الدفع عند الاستلام – Paiement à la livraison</div>
+        <div style="margin-top:6px;font-weight:800">الإجمالي: <span id="orderTotal" style="color:var(--price)">0 DA</span></div>
+        <div style="color:#7edcab;font-size:12px;margin-top:4px">✓ الدفع عند الاستلام – Paiement à la livraison</div>
       </div>
-
-      <div class="whatsapp-note">
-        بعد تأكيد الطلب سيتم إرسال تفاصيل طلبك تلقائياً عبر واتساب إلى فريق GPL Auto Parts، وسنتصل بك خلال 2 ساعة لتأكيد الطلب.<br>
-        <span class="ltr" style="font-size:11px;color:#6ddda0">WhatsApp auto-notify → +213 668 479 038</span>
-      </div>
-
-      <div style="display:flex;gap:10px;margin-top:16px">
-        <button type="submit" class="btn btn-primary" style="flex:1">تأكيد الطلب ✓</button>
-        <button type="button" class="btn btn-dark" onclick="closeCheckout()">إلغاء</button>
+      <div class="wanote">بعد تأكيد الطلب سيتم إرسال تفاصيل طلبك تلقائياً عبر واتساب إلى <b>+213 668 479 038</b>، وسنتصل بك خلال ساعتين.<br><span style="font-size:11px;color:#6ddda0">WhatsApp auto-notify → +213 668 479 038</span></div>
+      <div style="display:flex;gap:10px;margin-top:15px">
+        <button type="submit" class="btn btn-g" style="flex:1">تأكيد الطلب ✓</button>
+        <button type="button" class="btn btn-o" onclick="closeCheckout()">إلغاء</button>
       </div>
     </form>
   </div>
 </div>
 
+<a class="wafloat" href="https://wa.me/213668479038?text=Salam%20GPL%20Auto%20Parts" target="_blank">💬 واتساب 0668 47 90 38</a>
+
 <script>
-let cart = [];
-function chg(btn, delta){
-  const span = btn.parentElement.querySelector('span');
-  let v = parseInt(span.textContent) + delta;
-  if(v<1) v=1;
-  span.textContent=v;
+const CAT_META = {
+  kits:{icon:'🧩',ar:'أنظمة كاملة',fr:'Kits GPL'},
+  injecteurs:{icon:'💧',ar:'حاقنات',fr:'Injecteurs GPL'},
+  reservoirs:{icon:'🛢️',ar:'خزانات',fr:'Réservoirs GPL'},
+  filtres:{icon:'♻️',ar:'فلاتر',fr:'Filtres GPL'},
+  electrovannes:{icon:'⚡',ar:'صمامات',fr:'Électrovannes GPL'},
+  capteurs:{icon:'📡',ar:'حساسات',fr:'Capteurs GPL'},
+  accessoires:{icon:'🔧',ar:'إكسسوارات',fr:'Accessoires GPL'}
+};
+let PRODUCTS=[]; let cart=JSON.parse(localStorage.getItem('gpl_cart')||'[]'); let currentCat='all'; let page=1;
+
+async function loadProducts(){
+  const owner = localStorage.getItem('gpl_products_owner');
+  if(owner){ try{PRODUCTS=JSON.parse(owner); return;}catch(e){} }
+  try{ const r=await fetch('products.json?'+Date.now()); if(r.ok){PRODUCTS=await r.json(); return;} }catch(e){}
+  // fallback minimal
+  PRODUCTS=[];
 }
-function addToCart(name, price){
-  const card = event.target.closest('.prod-foot');
-  const qty = parseInt(card.querySelector('.qty span').textContent);
-  const found = cart.find(i=>i.name===name);
-  if(found){ found.qty += qty } else { cart.push({name, price, qty}) }
-  updateCart();
-  toggleCart(true);
+function buildCats(){
+  const counts={}; PRODUCTS.forEach(p=>counts[p.cat]=(counts[p.cat]||0)+1);
+  const grid=document.getElementById('catGrid');
+  let html='';
+  Object.entries(CAT_META).forEach(([k,v])=>{
+    html+=`<div class="cat" data-cat="${k}" onclick="setCat('${k}')"><div class="cicon">${v.icon}</div><h4>${v.fr}</h4><p>${v.ar}</p><small>${counts[k]||0} منتج</small></div>`;
+  });
+  html+=`<div class="cat active" data-cat="all" onclick="setCat('all')"><div class="cicon">➕</div><h4>جميع الفئات</h4><p>Voir tout</p><small>${PRODUCTS.length} منتج</small></div>`;
+  grid.innerHTML=html;
+  const pills=document.getElementById('pills');
+  let phtml=`<button class="pill on" data-f="all" onclick="setCat('all')">الكل • ${PRODUCTS.length}</button>`;
+  Object.entries(CAT_META).forEach(([k,v])=>{ phtml+=`<button class="pill" data-f="${k}" onclick="setCat('${k}')">${v.icon} ${v.fr}</button>`; });
+  pills.innerHTML=phtml;
 }
-function updateCart(){
-  document.getElementById('cartCount').textContent = cart.reduce((s,i)=>s+i.qty,0);
-  const itemsEl = document.getElementById('cartItems');
-  if(cart.length===0){ itemsEl.innerHTML='<span style="color:#777">السلة فارغة</span>'; }
-  else {
-    itemsEl.innerHTML = cart.map(i=>`<div style="margin:4px 0;color:#ddd">${i.name} × ${i.qty} – ${(i.price*i.qty).toLocaleString()} DA</div>`).join('');
-  }
-  const total = cart.reduce((s,i)=>s+i.price*i.qty,0);
-  document.getElementById('cartTotal').textContent = total.toLocaleString()+' DA';
-  document.getElementById('orderTotal').textContent = total.toLocaleString()+' DA';
-  document.getElementById('orderSummary').innerHTML = cart.length ? cart.map(i=>`• ${i.name} x${i.qty}`).join('<br>') : 'لم يتم اختيار منتجات بعد.';
+function setCat(c){ currentCat=c; page=1;
+  document.querySelectorAll('.cat').forEach(x=>x.classList.toggle('active', x.dataset.cat===c));
+  document.querySelectorAll('.pill').forEach(x=>x.classList.toggle('on', x.dataset.f===c));
+  render();
+  document.getElementById('shop').scrollIntoView({behavior:'smooth',block:'start'});
 }
-function toggleCart(forceOpen){
-  const d=document.getElementById('cartDrawer');
-  if(forceOpen===true){ d.classList.add('show'); return }
-  d.classList.toggle('show');
+function render(){
+  const q=(document.getElementById('q').value||'').toLowerCase().trim();
+  const sort=document.getElementById('sort').value;
+  let list=PRODUCTS.slice();
+  if(currentCat!=='all') list=list.filter(p=>p.cat===currentCat);
+  if(q) list=list.filter(p=>p.name.toLowerCase().includes(q)||(p.name_ar||'').includes(q)||p.sku.toLowerCase().includes(q));
+  if(sort==='price_asc') list.sort((a,b)=>(a.sale_price||a.price)-(b.sale_price||b.price));
+  else if(sort==='price_desc') list.sort((a,b)=>(b.sale_price||b.price)-(a.sale_price||a.price));
+  else if(sort==='name') list.sort((a,b)=>a.name.localeCompare(b.name));
+  else if(sort==='new') list.sort((a,b)=>b.id-a.id);
+  else list.sort((a,b)=>(b.featured?1:0)-(a.featured?1:0));
+  const per=parseInt(document.getElementById('perPage').value);
+  const total=list.length;
+  const pages=Math.max(1,Math.ceil(total/per));
+  if(page>pages) page=pages;
+  const view=list.slice((page-1)*per, page*per);
+  const catLabel=currentCat==='all'?'جميع المنتجات':(CAT_META[currentCat]?.fr+' – '+CAT_META[currentCat]?.ar);
+  document.getElementById('resinfo').textContent=`عرض ${view.length} من ${total} منتج – ${catLabel}${q?' – بحث: "'+q+'"':''}`;
+  document.getElementById('pgrid').innerHTML = view.map(p=>{
+    const price=p.sale_price||p.price;
+    const old=p.sale_price?`<s>${p.price.toLocaleString()} DA</s>`:'';
+    const tag=p.featured?'<span class="pTag t-hot">الأكثر مبيعا</span>':(p.sale_price?'<span class="pTag t-sale">Promo</span>':'');
+    return `<div class="p">
+      <div class="pimg">${p.img||'🔧'}${tag}</div>
+      <div class="pb">
+        <div class="clabel">${CAT_META[p.cat]?.fr||p.cat} – ${CAT_META[p.cat]?.ar||''}</div>
+        <h5>${p.name}</h5>
+        <div class="sku">SKU: ${p.sku} • مخزون: ${p.stock}</div>
+        <div class="price">${price.toLocaleString()} DA ${old}</div>
+        <div class="stock">✓ متوفر في المخزن</div>
+        <div class="pfoot">
+          <div class="qty"><button onclick="chgQty(this,-1)">−</button><span>1</span><button onclick="chgQty(this,1)">+</button></div>
+          <button class="add" onclick="addToCart(${p.id})">+ أضف</button>
+        </div>
+      </div>
+    </div>`;
+  }).join('') || `<div style="grid-column:1/-1;text-align:center;color:#999;padding:30px">لا توجد منتجات مطابقة</div>`;
+  let pg=''; if(pages>1){ for(let i=1;i<=pages;i++){ pg+=`<button class="${i===page?'on':''}" onclick="page=${i};render();window.scrollTo({top:document.getElementById('shop').offsetTop-70,behavior:'smooth'})">${i}</button>` } }
+  document.getElementById('pagebar').innerHTML=pg;
 }
-function openCheckout(){
-  updateCart();
-  document.getElementById('checkoutModal').classList.add('show');
-}
-function closeCheckout(){ document.getElementById('checkoutModal').classList.remove('show') }
-function submitOrder(e){
-  e.preventDefault();
-  const fd = new FormData(e.target);
-  const o = Object.fromEntries(fd.entries());
-  const total = cart.reduce((s,i)=>s+i.price*i.qty,0);
-  const productsText = cart.map(i=>`- ${i.name} x${i.qty}`).join('%0A');
-  const msg = `Nouvelle commande GPL:%0A%0ANom : ${o.name}%0ATéléphone : ${o.phone}%0AWilaya : ${o.wilaya}%0ACommune : ${o.commune}%0AAdresse : ${o.address}%0A%0AProduits :%0A${productsText}%0A%0ATotal : ${total.toLocaleString()} DA%0A%0AVeuillez contacter le client pour confirmer la commande.`;
-  const wa = `https://wa.me/213668479038?text=${msg}`;
-  // In production: AJAX to /wp-admin/admin-ajax.php -> WooCommerce order + server-side WhatsApp API
-  window.open(wa, '_blank');
-  alert('تم إرسال طلبك! سيتم التواصل معك عبر واتساب لتأكيد الطلب.');
-  cart=[]; updateCart(); closeCheckout();
-}
-updateCart();
+// cart
+function chgQty(b,d){ const s=b.parentElement.querySelector('span'); let v=parseInt(s.textContent)+d; if(v<1)v=1; s.textContent=v; }
+function toast(m){ const t=document.getElementById('toast'); t.textContent=m; t.classList.add('show'); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove('show'),2300); }
+function saveCart(){ localStorage.setItem('gpl_cart', JSON.stringify(cart)); }
+function addToCart(id){ const p=PRODUCTS.find(x=>x.id===id); if(!p) return; const btn=event.target.closest('.pfoot'); const qty=btn?parseInt(btn.querySelector('.qty span').textContent):1; const f=cart.find(i=>i.id===id); if(f)f.qty+=qty; else cart.push({id,name:p.name,price:p.sale_price||p.price,qty}); updateCart(); saveCart(); toggleCart(true); toast('✅ تمت الإضافة: '+p.name); }
+function updateCart(){ const n=cart.reduce((s,i)=>s+i.qty,0); document.getElementById('cartCount').textContent=n; const el=document.getElementById('cartItems'); el.innerHTML = cart.length ? cart.map((it,idx)=>`<div style="display:flex;justify-content:space-between;gap:6px;margin:5px 0;color:#ddd"><span>${it.name} × ${it.qty}</span><span>${(it.price*it.qty).toLocaleString()} DA <a href="#" onclick="cart.splice(${idx},1);updateCart();saveCart();return false" style="color:#ef6666">✕</a></span></div>`).join('') : '<span style="color:#777">السلة فارغة</span>'; const total=cart.reduce((s,i)=>s+i.price*i.qty,0); document.getElementById('cartTotal').textContent=total.toLocaleString()+' DA'; const ot=document.getElementById('orderTotal'); if(ot) ot.textContent=total.toLocaleString()+' DA'; const os=document.getElementById('orderSummary'); if(os) os.innerHTML = cart.length ? cart.map(i=>`• ${i.name} x${i.qty}`).join('<br>') : 'لم يتم اختيار منتجات بعد.'; }
+function toggleCart(o){ const d=document.getElementById('cartD'); if(o===true){d.classList.add('show'); setTimeout(()=>d.classList.remove('show'),3600); return;} d.classList.toggle('show'); }
+// checkout
+const wilayas=["01 - أدرار","02 - الشلف","03 - الأغواط","04 - أم البواقي","05 - باتنة","06 - بجاية","07 - بسكرة","08 - بشار","09 - البليدة","10 - البويرة","11 - تمنراست","12 - تبسة","13 - تلمسان","14 - تيارت","15 - تيزي وزو","16 - الجزائر","17 - الجلفة","18 - جيجل","19 - سطيف","20 - سعيدة","21 - سكيكدة","22 - سيدي بلعباس","23 - عنابة","24 - قالمة","25 - قسنطينة","26 - المدية","27 - مستغانم","28 - المسيلة","29 - معسكر","30 - ورقلة","31 - وهران","32 - البيض","33 - إليزي","34 - برج بوعريريج","35 - بومرداس","36 - الطارف","37 - تندوف","38 - تيسمسيلت","39 - الوادي","40 - خنشلة","41 - سوق أهراس","42 - تيبازة","43 - ميلة","44 - عين الدفلى","45 - النعامة","46 - عين تموشنت","47 - غرداية","48 - غليزان","49 - تيميمون","50 - برج باجي مختار","51 - أولاد جلال","52 - بني عباس","53 - عين صالح","54 - عين قزام","55 - تقرت","56 - جانت","57 - المغير","58 - المنيعة"];
+function fillWilayas(){ document.getElementById('wilayaSel').innerHTML='<option value="">اختر الولاية</option>'+wilayas.map(w=>`<option>${w}</option>`).join(''); }
+function openCheckout(){ updateCart(); document.getElementById('checkM').classList.add('on'); }
+function closeCheckout(){ document.getElementById('checkM').classList.remove('on'); }
+function submitOrder(e){ e.preventDefault(); if(!cart.length){alert('السلة فارغة');return;} const fd=new FormData(e.target); const o=Object.fromEntries(fd.entries()); const total=cart.reduce((s,i)=>s+i.price*i.qty,0); const orderId='GPL'+Date.now().toString().slice(-7); const orders=JSON.parse(localStorage.getItem('gpl_orders')||'[]'); orders.unshift({id:orderId,date:new Date().toISOString(),customer:o,items:cart.slice(),total,status:'جديد'}); localStorage.setItem('gpl_orders',JSON.stringify(orders.slice(0,300))); const productsText=cart.map(i=>`- ${i.name} x${i.qty}`).join('%0A'); const msg=`Nouvelle commande GPL %23${orderId}:%0A%0ANom : ${o.name}%0ATéléphone : ${o.phone}%0AWilaya : ${o.wilaya}%0ACommune : ${o.commune}%0AAdresse : ${o.address}%0A%0AProduits :%0A${productsText}%0A%0ATotal : ${total.toLocaleString()} DA%0A%0AVeuillez contacter le client pour confirmer la commande.`; window.open('https://wa.me/213668479038?text='+msg,'_blank'); alert('✅ تم إرسال طلبك #'+orderId+'!\\nسيتم التواصل عبر واتساب 0668 47 90 38'); cart=[]; saveCart(); updateCart(); closeCheckout(); }
+(async function(){ await loadProducts(); buildCats(); fillWilayas(); updateCart(); render(); })();
 </script>
-<a href="https://wa.me/213668479038" target="_blank" style="position:fixed;bottom:18px;left:18px;z-index:9999;background:#25D366;color:#fff;padding:12px 18px;border-radius:50px;font-weight:700;font-family:Cairo,sans-serif;box-shadow:0 4px 16px rgba(0,0,0,.3);text-decoration:none;font-size:14px">💬 واتساب 0668 47 90 38</a></body>
+</body>
 </html>
